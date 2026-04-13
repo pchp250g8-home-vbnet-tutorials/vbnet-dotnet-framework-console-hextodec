@@ -4,8 +4,8 @@ Module Module1
 
 	Sub Main()
 		Const MAX_INT = UInteger.MaxValue
-		Dim nDecNum = 0
-		Dim nHexPower = 1
+		Dim nDecNum = 0L
+		Dim nHexPower = 1L
 		Dim nMaxHexLen = Math.Ceiling(Math.Log(MAX_INT, 16))
 		Dim oRegEx = New Regex("^[0-9A-Fa-f]+$")
 		Console.WriteLine("Input a hexadecimal number")
